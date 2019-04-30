@@ -1,0 +1,80 @@
+[0m[[0m[0mdebug[0m] [0m[0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.7[0m
+[0m[[0m[0mdebug[0m] [0m[0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.5:compile for Scala 2.12.7[0m
+[0m[[0m[0minfo[0m] [0m[0mStarting scala interpreter...[0m
+[0m[[0m[31merror[0m] [0m[0m(Thread-3) java.io.FileNotFoundException: C:\Users\히쥬쨩\.scala_history (액세스가 거부되었습니다)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.FileNotFoundException: C:\Users\히쥬쨩\.scala_history (액세스가 거부되었습니다)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.FileOutputStream.open0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.FileOutputStream.open(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.FileOutputStream.<init>(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.io.File.outputStream(File.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.io.File.writer(File.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.io.File.bufferedWriter(File.scala:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.io.File.bufferedWriter(File.scala:75)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.io.File.appendAll(File.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.FileBackedHistory.append(FileBackedHistory.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.FileBackedHistory.append$(FileBackedHistory.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.JLineHistory$JLineFileHistory.append(JLineHistory.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.FileBackedHistory.addLineToFile(FileBackedHistory.scala:57)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.FileBackedHistory.addLineToFile$(FileBackedHistory.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.JLineHistory$JLineFileHistory.addLineToFile(JLineHistory.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.JLineHistory$JLineFileHistory.add(JLineHistory.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.finishBuffer(ConsoleReader.java:733)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.accept(ConsoleReader.java:2025)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2698)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2378)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2366)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.InteractiveReader.readOneLine(JLineReader.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.InteractiveReader.readLine(InteractiveReader.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.InteractiveReader.readLine$(InteractiveReader.scala:35)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.InteractiveReader.readLine(JLineReader.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.SplashReader.readLine(InteractiveReader.scala:147)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.SplashLoop.run(InteractiveReader.scala:75)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m(run-main-0) java.io.FileNotFoundException: C:\Users\히쥬쨩\.scala_history (액세스가 거부되었습니다)[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.FileNotFoundException: C:\Users\히쥬쨩\.scala_history (액세스가 거부되었습니다)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.FileOutputStream.open0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.FileOutputStream.open(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.io.FileOutputStream.<init>(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.io.File.outputStream(File.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.io.File.writer(File.scala:70)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.io.File.bufferedWriter(File.scala:77)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.io.File.bufferedWriter(File.scala:75)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.io.File.appendAll(File.scala:89)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.FileBackedHistory.append(FileBackedHistory.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.FileBackedHistory.append$(FileBackedHistory.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.JLineHistory$JLineFileHistory.append(JLineHistory.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.FileBackedHistory.addLineToFile(FileBackedHistory.scala:57)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.FileBackedHistory.addLineToFile$(FileBackedHistory.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.JLineHistory$JLineFileHistory.addLineToFile(JLineHistory.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.JLineHistory$JLineFileHistory.add(JLineHistory.scala:56)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.finishBuffer(ConsoleReader.java:733)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.accept(ConsoleReader.java:2025)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2698)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2378)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2366)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.InteractiveReader.readOneLine(JLineReader.scala:59)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.InteractiveReader.readLine(InteractiveReader.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.InteractiveReader.readLine$(InteractiveReader.scala:35)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.InteractiveReader.readLine(JLineReader.scala:27)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.ILoop.readOneLine(ILoop.scala:465)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.ILoop.loop(ILoop.scala:477)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.ILoop.process(ILoop.scala:1069)[0m
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.ConsoleInterface.run(ConsoleInterface.scala:71)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.reflect.Method.invoke(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.AnalyzingCompiler.call(AnalyzingCompiler.scala:237)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.AnalyzingCompiler.console(AnalyzingCompiler.scala:199)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Console.console0$1(Console.scala:48)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Console.$anonfun$apply$2(Console.scala:51)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.InterfaceUtil$$anon$1.get(InterfaceUtil.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.TrapExit$App.run(TrapExit.scala:253)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Thread run-main-0 exited.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0m[0mdebug[0m] [0m[0mSandboxed run complete..[0m
+[0m[[0m[31merror[0m] [0m[0mNonzero exit code: 1[0m
